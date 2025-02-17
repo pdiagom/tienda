@@ -11,7 +11,7 @@ package com.mycompany.tienda;
  */
 public class Empleado {
     
-    private String nombre;
+    private String nombre1;
     private String email;
     private String puesto;
 
@@ -23,7 +23,7 @@ public class Empleado {
      * @param puesto Puesto de trabajo del empleado.
      */
     public Empleado(String nombre, String email, String puesto) {
-        this.nombre = nombre;
+        this.nombre1 = nombre;
         this.email = email;
         this.puesto = puesto;
     }
@@ -34,7 +34,7 @@ public class Empleado {
      * @return Nombre del empleado.
      */
     public String getNombre() {
-        return nombre;
+        return nombre1;
     }
 
     /**
@@ -43,7 +43,7 @@ public class Empleado {
      * @param nombre Nuevo nombre del empleado.
      */
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        this.nombre1 = nombre;
     }
 }
 
